@@ -1,0 +1,9 @@
+{
+    "data": [
+        {"title": "Contact", "text": "This is where i display information about my Contact Component"},
+        {"author": "About Me", "body": "My name is Dodie Matthew and I am an ambitious Technologist. Currently, my main focuses in the field are Software Engineering, DevOps and IT. I have strong experience in object oriented programming with Java. I am also very familiar with cloud technologies such as AWS, google cloud and IBM Cloud. Outside of Computer Science, I enjoy travelling and exploring, while learning new cultures. I am a health activist and I promote saving the earth by recycling and preferably using biodegradable materials. I'm a team player who is not afraid to take up a leadership role and share knowledge."},
+        {"tech": "Technologies", "techStack" : "This Site was built using multiple Technologies and libraries! It also utilizes continuous development allowing me to easily deploy updates more conveniently, minimizing my downtime! Some of these include: React, JavaScript, CSS, and HTML"},
+        {"project": "Projects", "work": "Hack Space We figured it was always cumbersome to form teams and share ideas efficiently at hackathons, so we built an open source application using React, PostGresSQL and Ruby on Rails. Feel free to check out our demo here. Tip Calculator A calulator that simultaneously calculates tip ammounts on your mobile phone. The iOS application was built in swift in xCode. The open source files and gif demo can be found here. JS Drumkit An audio drumkit made with JavaScript by associating keys and their keyCodes with audio sounds. It works similarly to a digital piano. You can check out its code here."},
+        {"contact": "Contact", "message": ""}
+    ]
+}
