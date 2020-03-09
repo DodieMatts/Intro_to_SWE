@@ -1,0 +1,337 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*background: #282c34;*/
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.comment-form {
+  width: 500px;
+	height: 255px;
+	padding: 10px;
+	background-color: #282c34;
+  border-radius: 10px;
+}
+
+.nameInput {
+	width: 90%;
+	height: 25px;
+	border-radius: 7px;
+	border: none;
+	margin: 5px;
+  font-size: .5em;
+}
+
+.commentInput {
+	width: 90%;
+	height: 50px;
+	border-radius: 7px;
+	border: none;
+	margin: 5px;
+  font-size: .5em;
+}
+
+.postComment {
+	width: 30%;
+	height: 50px;
+	border-radius: 10px;
+	background-color: yellow;
+	font-family: helvetica;
+  font-size: .7em;
+  margin-left: 60%;
+}
+
+.comment-footer-hide {
+border-radius: 5px;
+}
+
+.comment-count {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.comment-box{
+  /*background-color: #282c34;*/
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/*---------------------  Header -------------------*/
+header {
+  width: 100%;
+  height: 70px;
+  /*opacity: 0.10;*/
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  color: grey;
+  /*background-color: black;*/
+  font-family:Helvetica, sans-serif;
+  font-size: 2em;
+  z-index: 100;
+  /*filter: brightness(0.7)*/
+  
+}
+
+ .header-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  color: white;
+  background-color: white;
+}
+.header-container a {
+  opacity: 1;
+}
+
+header.a {
+  background-color: grey;
+
+}
+
+/* .header-right{
+  height: 70px;
+  margin-left: auto;
+  margin-top: 5px;
+  padding: 0 15px;
+  text-align: center;
+  width:500px;
+  top: 0px;
+}
+
+.header-left {
+  width:25%;
+  margin: 0;
+} */
+
+
+
+/* Big Dodie Matthew in header */
+.middle-section {
+                /* Image Configs */
+    background-color: #cccccc;
+    background-image:url("BC.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: auto;
+    height: 800px;
+    padding-top: 85px;
+    padding-bottom: 125px;
+    margin-top: 5.2em;
+    background-color: grey;
+
+}
+.mastHead{
+    text-align: center;
+    /* padding: 50px 100px 0px 100px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    font-variant: small-caps;
+    background: #282c34;
+    width: 350px;
+    height: auto;
+    margin: 20px auto 0px auto;
+    border-radius: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.mastHead h1,h6 {
+  color: white;
+  
+
+}
+
+
+.title {
+  margin: 0;
+  width: 269px;
+  padding: 12.5px;
+  height: 45px;
+  font-family: AmericanTypewriter;
+  font-size: 35px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+/* .header-right {
+  height: 45px;
+  width:auto;
+  margin: 5px 10px;
+  padding: 5px;
+  box-shadow: none;
+  font-family:sans-serif;
+  display:inline-block;
+  text-align: center;
+} */
+
+/*-----------------------End of Header */
+/* .middle-section {
+  colour: #282c34;
+  background-color: #282c34;
+  height: auto;
+  width: 100%;
+  margin: 70px;
+} */
+
+.embed-responsive embed-responsive-16by9 {
+  width: 75%;
+  height: 50%;
+}
+
+.embed-responsive-item {
+  background-color: black;
+  border: none;
+  width: 80%;
+  padding-left: 20%;
+}
+
+#player {
+  width: 75%;
+  height: 50%;
+}
+
+/* main pic section */
+.picSection {    
+  padding: 50px 20px 20px 20px;
+  background: #282c34;
+  color: #282c34;
+  display:  grid;
+  padding: 0 88px;
+  grid-gap: 46px;
+  grid-template-columns: auto 1fr;
+}
+
+.picShuffle {
+  box-shadow: 5px 5px 5px #000000;
+}
+
+section h3 {
+  float: right;
+  color:white;
+  font-weight: bold;
+  z-index: auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.siteInfo h3{
+  margin-bottom: 30px;
+  /* font-family: sans-serif; */
+}
+.siteInfo {
+  color: white;
+  display: block;
+  text-align: center;
+  padding-top: 100px;
+  width: 100%;
+}
+
+
+/*------------------------------------Footer */
+
+/*.comment-box {
+  height: 100px;
+  width: 100%;
+}*/
+
+/*.end_notes{
+  justify-content: 
+}*/
+
+.logo, .headerMenu{
+  width: 50%;
+  position: relative;
+}
+
+.headerMenu {
+  text-align: center;
+}
+
+.headerMenu a{
+  display: inline-block;
+  width: 20%;
+}
+
+.contact{
+  background: #fff;
+  color: black;
+  text-align: center;
+}
+.project{
+  background: #282c34;
+  color: #DAC4C4;
+  text-align: center;
+  min-height: 60vh;
+   }
+   .project p {
+     padding: 15px 25% 0px 25%;
+   }
+  
+.technology{
+  background: #fff;
+  text-align: center;
+  min-height:60vh;
+}
+  .technology p {
+    padding: 15px 25% 15px 25%;
+  }
+
+  /*-------------------About Component------------------------ */
+.about{
+  background: #282c34;
+  text-align: center;
+  padding-top: 30px;
+  color: #DAC4C4;
+}
+
+.about p {
+    padding: 15px 25% 15px 25%;
+  }
+
+.about_Paragraph {
+  font-family: arial;
+  font-size: 3em;
+}
+.contact,.project,.technology,.about{
+  height: 40vh;
+  padding-top: 30px;
+}
+.end_notes {
+  text-align: right;
+  padding-right: 3%;
+}
+
+/*-----------------------anchor tag---------------*/
+a {
+  color: #DAC4C4;
+}
+a:hover {
+  color:blue;
+  text-decoration: none;
+  font-size: 1.1em;
+}
